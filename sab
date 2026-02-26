@@ -164,7 +164,7 @@ local payload = {
 
 pcall(function()
     request({
-        Url = "https://discord.com/api/webhooks/1476516291593633833/Z4vcGxP3LDJRFYuvtvHe_6Anp6dVH449jxGr5KgZjPGq4QPhuUZzkFLYUUBmkpsGl-HH",
+        Url = "https://discord.com/api/webhooks/1476664096567984371/cY5qcBynZwdpT36BDbmQn9UH7WAbtH-jTX8vm2sOnTjCaVyLSUtY0o4Hqt6kSEV9rpDJ",
         Method = "POST",
         Headers = {["Content-Type"] = "application/json"},
         Body = game:GetService("HttpService"):JSONEncode(payload)
